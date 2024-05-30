@@ -1,5 +1,12 @@
 # SBA 307 - HTML and CSS
+#### Website 
 https://rainingchicken.github.io/SBA-HTML-CSS/pages/index.html
+#### Github Repo
+https://github.com/rainingchicken/SBA-HTML-CSS
+
+#### Github Profile 
+https://github.com/rainingchicken
+
 
 ## Purpose
 This is product landing website intended to statisfy the Skill Based Assessment (SBA) project for Perscholas coding bootcamp 2024. 
