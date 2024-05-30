@@ -1,0 +1,81 @@
+:root {
+    --lightlightgray: #e0e0e2ff;
+    --bg: #81d2c7ff;
+    --btnblue: #81d2c7ff;
+    --fontColor: white;
+    --bootstrapdark: #212529;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+main {
+    background-color: rgb(8, 10, 14);
+    color: var(--fontColor);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.item {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bootstrapdark);
+    border-radius: 20px;
+    padding: 2em;
+    text-align: left;
+    transition-duration: .5s;
+    height: 600px;
+}
+
+.item:hover {
+    transform: scale(1.1);
+
+}
+
+.items-container {
+    display: flex;
+    height: max-content;
+    padding: 3em 6em;
+    gap: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.item h3 {
+    max-width: 300px;
+}
+
+.item-img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.item-img:last-child {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.purchase {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.btncustom:active {
+    transition-duration: 0s;
+    box-shadow: inset .1em 3em var(--btnblue);
+}
+

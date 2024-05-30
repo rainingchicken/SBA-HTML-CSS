@@ -1,0 +1,61 @@
+:root {
+    --lightlightgray: #e0e0e2ff;
+    --bg: #81d2c7ff;
+    --btnblue: #81d2c7ff;
+    --fontColor: white;
+    --bootstrapdark: #212529;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: var(--bg);
+
+}
+
+main,
+html {
+    background-color: rgb(8, 10, 14);
+    color: var(--fontColor);
+}
+
+main {
+    padding: 5%;
+}
+
+span {
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.gif {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.animation {
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    width: 50%;
+    height: 50vh;
+    transition-duration: 4s;
+}
+
+.animation:hover {
+    transform: rotate(360deg);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

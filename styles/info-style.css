@@ -1,0 +1,45 @@
+:root {
+    --lightlightgray: #e0e0e2ff;
+    --bg: #81d2c7ff;
+    --btnblue: #81d2c7ff;
+    --fontColor: white;
+    --bootstrapdark: #212529;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(8, 10, 14);
+    color: var(--fontColor);
+    padding: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    margin-left: 5%;
+}
+
+table {
+    margin: 3em auto;
+}
+
+.rowstyle {
+    background-color: var(--bootstrapdark);
+}
+
+td,
+th {
+    padding: .2em 2em;
+}
+
+
+
+.source {
+    text-decoration: none;
+    color: var(--fontColor);
+}

@@ -1,0 +1,175 @@
+:root {
+    --lightlightgray: #e0e0e2ff;
+    --bg: #81d2c7ff;
+    --btnblue: #81d2c7ff;
+    --fontColor: white;
+    --bootstrapdark: #212529;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: var(--bg);
+
+}
+
+main {
+    background-color: rgb(8, 10, 14);
+    color: var(--fontColor);
+}
+
+#newItem {
+    padding-top: 2em;
+    background-size: cover;
+    /* https://www.pexels.com/photo/time-lapse-photography-of-stars-in-sky-at-night-1048081/ */
+    background-image: url('../images/pexels-kubiceknov-1048081.jpg');
+}
+
+#topic {
+    /* background-color: aqua; */
+    padding-left: 10%;
+    align-items: center;
+
+}
+
+.buybtn {
+    border-radius: 8px;
+    color: var(--fontColor);
+    border: 1px solid var(--bg);
+    /* background-color: var(--loginBtn); */
+    transition-property: background-color;
+    transition-duration: 1s ease;
+
+}
+
+.buybtn:hover {
+    background-color: white;
+    box-shadow: .1em .1em .1em var(--bg);
+}
+
+.buybtn:active {
+    background-color: var(--bootstrapdark);
+}
+
+#newteleporter {
+    width: 100%;
+}
+
+#featured,
+#shop {
+    /* background-color: coral; */
+    text-align: center;
+
+}
+
+#featured>h1,
+#shop>h1 {
+    padding-top: 2em;
+}
+
+.item {
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--bootstrapdark);
+    border-radius: 20px;
+    padding: 1em;
+    text-align: left;
+    transition-duration: .5s;
+}
+
+.item:hover {
+    transform: scale(1.1);
+
+}
+
+.items-container,
+.info {
+    display: flex;
+    height: fit-content;
+    /* background-color: blue; */
+    padding: 3em 6em;
+    gap: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+
+.newitem-img {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.item-img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.item-img:last-child {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#benefits {
+    height: fit-content;
+}
+
+.info {
+    margin: 3em 0;
+}
+
+.image {
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#credibility {
+    flex-direction: row-reverse;
+}
+
+#newsletter {
+    background-color: var(--bootstrapdark);
+    text-align: center;
+    margin-top: 1em;
+    padding: 3em 0;
+}
+
+
+#emailInput {
+    height: 3em;
+    border-radius: 6em;
+    padding: 1em;
+    margin: 1em;
+    border: none;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#subbtn {
+    height: 3em;
+    border-radius: 6em;
+    padding: 0 1em;
+}
+
+#subbtn:active {
+    background-color: var(--bootstrapdark);
+}
+
+.redirect {
+    text-decoration: none;
+    color: var(--fontColor);
+}

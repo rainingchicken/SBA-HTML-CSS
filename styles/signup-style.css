@@ -1,0 +1,108 @@
+:root {
+    --loginForm: #e0e0e2ff;
+    --bg: #81d2c7ff;
+    --loginBtn: #81d2c7ff;
+    --fontColor: black;
+}
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    background-attachment: fixed;
+    /* background-color: var(--bg); */
+    background-image: linear-gradient(var(--bg), #9BC6CC);
+}
+
+form {
+    background-color: var(--loginForm);
+    margin: auto;
+    /* width: calc(100vw - 70%); */
+    width: 400px;
+    margin-top: 20vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 2%;
+    border: none;
+}
+
+.company {
+    text-align: center;
+    text-decoration: none;
+    color: var(--bg);
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin-top: -1.5em;
+    text-align: center;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+input {
+    box-sizing: border-box;
+    display: block;
+    margin: 2em auto;
+    width: 90%;
+    position: relative;
+    height: 3em;
+    border-radius: 2px;
+    padding: 1em;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+#signupbtn {
+    font-size: medium;
+    display: block;
+    margin: 2em auto;
+    width: 40%;
+    height: 3em;
+    border: none;
+    border-radius: 60px;
+    background-color: var(--loginBtn);
+}
+
+input::placeholder {
+    font-size: 1.1em;
+}
+
+#signupbtn:hover {
+    background-color: #fff;
+}
+
+#signupbtn:active {
+    background-color: gray;
+}
+
+#linkContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+a:not(.company) {
+    box-sizing: border-box;
+    padding: .5em 1em;
+    text-align: center;
+    text-decoration: none;
+    color: var(--fontColor);
+    border-radius: 60px;
+}
+
+a:not(.company):hover {
+    background-color: #fff;
+}
+
+a:not(.company):active {
+    background-color: gray;
+}

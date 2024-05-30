@@ -1,0 +1,103 @@
+:root {
+    --loginForm: #e0e0e2ff;
+    --bg: #81d2c7ff;
+    --loginBtn: #81d2c7ff;
+    --fontColor: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(#9BC6CC, var(--bg));
+}
+
+main {
+    padding: 3.5em;
+}
+
+form {
+    background-color: var(--loginForm);
+    margin: auto;
+    width: calc(100vw - 50%);
+    border-radius: 10px;
+    padding: 2%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+input,
+textarea {
+    display: block;
+    margin: 2em auto;
+    width: 90%;
+    position: relative;
+    border-radius: 2px;
+    padding: 1em;
+    border: none;
+    font-family: Arial, sans-serif;
+    background-color: var(--loginForm);
+    border-bottom: 1px solid var(--fontColor);
+}
+
+textarea {
+    border: 1px solid var(--fontColor);
+}
+
+input {
+    height: 3em;
+}
+
+#emailInput {
+    margin-bottom: 2em;
+}
+
+#sendbtn {
+    font-size: medium;
+    display: block;
+    margin: 2em auto;
+    width: 40%;
+    height: 3em;
+    border: none;
+    border-radius: 60px;
+    background-color: var(--loginBtn);
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 1.1em;
+    font-family: Arial, sans-serif;
+}
+
+#sendbtn:hover {
+    background-color: #fff;
+}
+
+#sendbtn:active {
+    background-color: gray;
+}
+
+
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100%;
+        margin: 2em auto;
+    }
+}
